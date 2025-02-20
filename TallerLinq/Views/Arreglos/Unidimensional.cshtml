@@ -1,0 +1,12 @@
+﻿@model int[]
+
+<h2>Arreglo Unidimensional</h2>
+<ul>
+    @foreach (var numero in Model)
+    {
+        <li>@numero</li>
+    }
+</ul>
+<p>
+    <a asp-action="Bidimensional">Bidimencional</a>
+</p>
